@@ -1,0 +1,103 @@
+#include<iostream>
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    char ch;
+
+    while(scanf("%c",&ch)==1){
+        if(ch=='=')
+            cout<<"-";
+        if(ch=='-')
+            cout<<"0";
+        if(ch=='0')
+            cout<<"9";
+        if(ch=='9')
+            cout<<"8";
+        if(ch=='8')
+            cout<<"7";
+        if(ch=='7')
+            cout<<"6";
+        if(ch=='6')
+            cout<<"5";
+        if(ch=='5')
+            cout<<"4";
+        if(ch=='4')
+            cout<<"3";
+        if(ch=='3')
+            cout<<"2";
+        if(ch=='2')
+            cout<<"1";
+        if(ch=='1')
+            cout<<"`";
+        if(ch=='\\')
+            cout<<"]";
+        if(ch==']')
+            cout<<"[";
+        if(ch=='[')
+            cout<<"P";
+        if(ch=='P')
+            cout<<"O";
+        if(ch=='O')
+            cout<<"I";
+        if(ch=='I')
+            cout<<"U";
+        if(ch=='U')
+            cout<<"Y";
+        if(ch=='Y')
+            cout<<"T";
+        if(ch=='T')
+            cout<<"R";
+        if(ch=='R')
+            cout<<"E";
+        if(ch=='E')
+            cout<<"W";
+        if(ch=='W')
+            cout<<"Q";
+        if(ch=='\'')
+            cout<<";";
+        if(ch==';')
+            cout<<"L";
+        if(ch=='L')
+            cout<<"K";
+        if(ch=='K')
+            cout<<"J";
+        if(ch=='J')
+            cout<<"H";
+        if(ch=='H')
+            cout<<"G";
+        if(ch=='G')
+            cout<<"F";
+        if(ch=='F')
+            cout<<"D";
+        if(ch=='D')
+            cout<<"S";
+        if(ch=='S')
+            cout<<"A";
+        if(ch=='/')
+            cout<<".";
+        if(ch=='.')
+            cout<<",";
+        if(ch==',')
+            cout<<"M";
+        if(ch=='M')
+            cout<<"N";
+        if(ch=='N')
+            cout<<"B";
+        if(ch=='B')
+            cout<<"V";
+        if(ch=='V')
+            cout<<"C";
+        if(ch=='C')
+            cout<<"X";
+        if(ch=='X')
+            cout<<"Z";
+        if(ch=='\n')
+            cout<<endl;
+        if(ch==' ')
+            cout<<" ";
+    }
+
+    return 0;
+}
