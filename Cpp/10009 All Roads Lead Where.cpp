@@ -62,7 +62,6 @@ int main()
                 for ( int i = 0; i < 30; i++ ) 
                         a[i].clear(); 
 
-                int cnt = 0; 
                 for ( int i = 0; i < e; i++ ) {
                         string ch1, ch2; 
                         cin >> ch1 >> ch2; 
